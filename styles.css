@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 110px;
+    color: #F94F6D;
+    width: 150px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button, .button1, .reset {
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 34px;
+    width: 80px;
+    color: aliceblue;
+    margin-left: 5px;
+    font-family: 'Cursed Timer ULiL';
+}
+
+.heading {
+    color: white;
+    font-family: verdana, sans-serif;
+}
+
+.h2, .h3 {
+    padding-left: 10px;
+    margin-top: 8px;
+    font-family: sans-serif, verdana;
+    color: whitesmoke;
+    display: inline;
+}
+
+.result {
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 40px;
+    width: 280px;
+    color: aliceblue;
+}
